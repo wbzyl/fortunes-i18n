@@ -21,16 +21,23 @@ body {
 
 // index.html.erb
 
-article
+article {
   &.index {
-    margin-bottom: 1em;
-  }
+    margin-bottom: 1em; }
   .attribute {
-    .name {
+    .makeRow();
+    margin-bottom: .25em;
+   .name {
       color: @blueDark;
+      .makeColumn(2);
+      text-align: right;
       &:after {
-        content: ":";
-      }
+        content: ":"; }
     }
-  }
+    .value {
+      .makeColumn(10); } }
+}
+
+input, textarea {
+  width: 100%;
 }

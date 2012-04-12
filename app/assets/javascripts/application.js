@@ -14,4 +14,10 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 
-$(document).ready(function() { });
+// $(document).ready(function() {
+//   $('article .attribute')
+//     .addClass('row').css('margin-bottom', '.25em')
+//     .find('.name').addClass('span2').css('text-align', 'right')
+//     .end()
+//     .find('.value').addClass('span10');
+// });

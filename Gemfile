@@ -42,3 +42,11 @@ gem "less-rails-bootstrap"
 gem "simple_form"
 gem "wirble", :group => :development
 gem "hirb", :group => :development
+
+gem "faker", :group => :development
+
+gem 'thin'
+
+gem 'will_paginate'
+
+gem 'string_case_pl'
