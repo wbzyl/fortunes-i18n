@@ -1,0 +1,36 @@
+@import "twitter/bootstrap";
+
+@baseFontSize: 18px;
+@baseLineHeight: 24px;
+
+@navbarBackgroundHighlight: #F00807;
+@navbarBackground: darken(#F00807, 20%);
+@navbarText: @white;
+@navbarLinkColor: darken(@white, 20%);
+
+.navbar {
+  .brand {
+     color: @white;
+     font-size: 24px;
+  }
+}
+
+body {
+  padding-top: 60px;
+}
+
+// index.html.erb
+
+article
+  &.index {
+    margin-bottom: 1em;
+  }
+  .attribute {
+    .name {
+      color: @blueDark;
+      &:after {
+        content: ":";
+      }
+    }
+  }
+}
