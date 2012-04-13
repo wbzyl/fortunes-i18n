@@ -10,6 +10,11 @@ pl:
       # html: '<abbr title="required">*</abbr>'
     error_notification:
       default_message: "Niepoprawnie wypełniony formularz:"
+    labels:
+      fortune:
+        quotation: 'Cytat'
+        source: 'Źródło'
+
     # Labels and hints examples
     # labels:
     #   password: 'Password'

@@ -1,23 +1,23 @@
-<% title "All fortunes" %>
+<% title t ".title" %>
 
 <% @fortunes.each do |fortune| %>
 <article class="index">
   <div class="attribute">
-    <span class="name">Quotation</span>
+    <span class="name"><%= t "simple_form.labels.fortune.quotation" %></span>
     <span class="value"><%= fortune.quotation %></span>
   </div>
   <div class="attribute">
-    <span class="name">Source</span>
+    <span class="name"><%= t "simple_form.labels.fortune.source" %></span>
     <span class="value"><%= fortune.source %></span>
   </div>
 <div class="form-actions">
-  <%= link_to 'Show', fortune, class: 'btn btn-mini'%>
-  <%= link_to 'Edit', edit_fortune_path(fortune), class: 'btn btn-mini'%>
-  <%= link_to 'Destroy', fortune, confirm: 'Are you sure?', method: :delete, class: 'btn btn-mini btn-danger'%>
+  <%= link_to t('show'), fortune, class: 'btn btn-mini'%>
+  <%= link_to t('edit'), edit_fortune_path(fortune), class: 'btn btn-mini'%>
+  <%= link_to t('destroy'), fortune, confirm: t('confirm'), method: :delete, class: 'btn btn-mini btn-danger'%>
 </div>
 </article>
 <% end %>
 
 <div class="form-actions">
-  <%= link_to 'New Fortune', new_fortune_path, class: 'btn btn-primary'%>
+  <%= link_to t('.new'), new_fortune_path, class: 'btn btn-primary'%>
 </div>

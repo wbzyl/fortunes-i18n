@@ -2,4 +2,19 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+  fortunes:
+    index:
+      title: "All fortunes"
+      new: "New Fortune"
+    show:
+      title: "Show fortune"
+    edit:
+      title: "Editing fortune"
+    new:
+      title: "New fortune"
+
+  show: "Show"
+  edit: "Edit"
+  destroy: "Destroy"
+  back: "Back"
+  confirm: "Are you sure?"

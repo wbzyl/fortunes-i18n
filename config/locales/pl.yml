@@ -225,3 +225,30 @@ pl:
   activerecord:
     errors:
       <<: *errors
+
+    models:
+      fortune: "Fortunkę"
+
+  fortunes:
+    index:
+      title: "Wszystkie fortunki"
+      new:   "Nowa fortunka"
+    show:
+      title: "Fortunka"
+    edit:
+      title: "Edycja fortunki"
+    new:
+      title: "Nowa fortunka"
+
+  show: "Pokaż"
+  edit: "Edycja"
+  destroy: "Usuń"
+  back: "Powrót"
+  confirm: "Jesteś pewien, że naprawdę chcesz to zrobić?"
+
+  flash:
+    actions:
+      create:
+        notice: "Nowa fortunka została zapisana w bazie."
+      update:
+        notice: "Uaktualniono fortunkę."
