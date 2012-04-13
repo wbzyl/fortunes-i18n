@@ -241,7 +241,7 @@ pl:
       title: "Nowa fortunka"
 
   show: "Pokaż"
-  edit: "Edycja"
+  edit: "Edytuj"
   destroy: "Usuń"
   back: "Powrót"
   confirm: "Jesteś pewien, że naprawdę chcesz to zrobić?"

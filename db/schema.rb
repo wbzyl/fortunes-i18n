@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120412181812) do
+ActiveRecord::Schema.define(:version => 20120412184049) do
 
   create_table "fortunes", :force => true do |t|
     t.text     "quotation"
