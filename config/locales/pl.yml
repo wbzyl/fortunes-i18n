@@ -247,8 +247,8 @@ pl:
   confirm: "Jesteś pewien, że naprawdę chcesz to zrobić?"
 
   flash:
-    actions:
+    fortunes:
       create:
-        notice: "Nowa fortunka została zapisana w bazie."
+        notice: "Nową fortunka zapisano w bazie."
       update:
         notice: "Uaktualniono fortunkę."

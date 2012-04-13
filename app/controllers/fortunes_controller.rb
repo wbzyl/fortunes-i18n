@@ -44,7 +44,7 @@ class FortunesController < ApplicationController
 
     respond_to do |format|
       if @fortune.save
-        format.html { redirect_to @fortune, notice: t('flash.actions.create.notice') }
+        format.html { redirect_to @fortune, notice: t('flash.fortunes.create.notice') }
         format.json { render json: @fortune, status: :created, location: @fortune }
       else
         format.html { render action: "new" }
@@ -60,7 +60,7 @@ class FortunesController < ApplicationController
 
     respond_to do |format|
       if @fortune.update_attributes(params[:fortune])
-        format.html { redirect_to @fortune, notice: t('flash.actions.update.notice') }
+        format.html { redirect_to @fortune, notice: t('flash.fortunes.update.notice') }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }
