@@ -9,7 +9,7 @@
 
     sudo yum install VirtualBox-OSE kmod-VirtualBox-OSE
     gem install vagrant
-    VboxManage --version
+    VBoxManage --version
     vagrant box add ubuntu-lucid-64 http://files.vagrantup.com/lucid64.box
     vagrant init ubuntu-lucid-64
 
